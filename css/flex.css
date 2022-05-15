@@ -6,6 +6,7 @@ body{
 }
 .caixa{
     width:669px;
+    height: 100vh;
     margin:20px auto;
     border:3px solid gray;
 
@@ -14,10 +15,13 @@ body{
 
     /* Condiciona que os elementos podem quebrar linha */
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:baseline;
 }
 .caixa div{
     padding:20px;
     background-color:orangered;
     margin:10px;
-    width:200px;
+    width:100px;
 }
